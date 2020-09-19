@@ -2,8 +2,7 @@ import os
 import telegram.ext as ext
 
 TELEGRAM_API_TOKEN = os.getenv('PISOCBOT_TOKEN')
-PORT = int(os.getenv('PISOCBOT_PORT'))
-print(PORT)
+PORT = int(os.getenv('PORT'))
 
 
 def hello_handler(update, context):
